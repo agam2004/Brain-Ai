@@ -42,7 +42,7 @@ public class User {
 
     @OneToMany(mappedBy = "user")
     private List<Doctor> doctors;
-git 
+
     @OneToMany(mappedBy = "user")
     private List<Patient> patients;
 

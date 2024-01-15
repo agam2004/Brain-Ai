@@ -2,7 +2,10 @@ package com.example.brainAi.service;
 
 import com.example.brainAi.dto.PatientDTO;
 import com.example.brainAi.entity.Patient;
+import com.example.brainAi.entity.Role;
+import com.example.brainAi.entity.User;
 import com.example.brainAi.repository.PatientRepository;
+import com.example.brainAi.repository.UserRepository;
 import jakarta.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
@@ -14,10 +17,12 @@ import java.util.Optional;
 public class PatientService {
 
     private final PatientRepository patientRepository;
+    private final UserRepository userRepository;
 
     @Autowired
-    public PatientService(PatientRepository patientRepository) {
+    public PatientService(PatientRepository patientRepository, UserRepository userRepository) {
         this.patientRepository = patientRepository;
+        this.userRepository = userRepository;
     }
 
     public List<Patient> getPatients() {
@@ -44,7 +49,20 @@ public class PatientService {
     }
 
     public PatientDTO createPatient(PatientDTO patientDTO) {
+        if (userRepository.existsByEmail(patientDTO.getEmail())) {
+            throw new IllegalArgumentException("Email is already in use");
+        }
+
+        // Create a new User entity for the Doctor
+        User user = new User();
+        user.setEmail(patientDTO.getEmail());
+        user.setFirstName(patientDTO.getFirstName());
+        user.setLastName(patientDTO.getLastName());
+        user.setPassword(patientDTO.getPassword());
+        user.getRoles().add(new Role("PATIENT")); // Assuming you have a UserRole enum
+        userRepository.save(user);
         Patient patient = mapPatientDTOToPatient(patientDTO);
+        patient.setUser(user);
         patientRepository.save(patient);
         return patientDTO;
     }

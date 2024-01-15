@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="5959cf2f-e721-4dcd-ba0d-3a41f8877e99" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/brainAi/UserRole.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/brainAi/config/AppSecurity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/brainAi/config/AuthenticationRequest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/brainAi/config/AuthenticationResponse.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/brainAi/config/CorsConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/brainAi/config/JwtAuthenticationEntryPoint.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/brainAi/config/JwtAuthenticationFilter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/brainAi/config/JwtProperties.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/brainAi/config/JwtUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/brainAi/controller/ArticalController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/brainAi/controller/ArticalController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/brainAi/controller/AuthenticationController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/brainAi/controller/DoctorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/brainAi/controller/DoctorController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/brainAi/controller/RegisterController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/brainAi/dto/DoctorDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/brainAi/dto/DoctorDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/brainAi/entity/RefreshToken.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/brainAi/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/brainAi/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/brainAi/repository/RefreshTokenRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/brainAi/service/DoctorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/brainAi/service/DoctorService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/brainAi/service/PatientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/brainAi/service/PatientService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/brainAi/service/RefreshTokenService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/UserRole.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/config/AppSecurity$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/brainAi/config/AppSecurity$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/config/AppSecurity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/brainAi/config/AppSecurity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/config/AuthenticationRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/brainAi/config/AuthenticationRequest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/config/AuthenticationResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/brainAi/config/AuthenticationResponse.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/config/CorsConfig$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/brainAi/config/CorsConfig$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/config/CorsConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/brainAi/config/CorsConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/config/JwtAuthenticationEntryPoint.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/brainAi/config/JwtAuthenticationEntryPoint.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/config/JwtAuthenticationFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/brainAi/config/JwtAuthenticationFilter.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/config/JwtProperties.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/brainAi/config/JwtProperties.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/config/JwtUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/brainAi/config/JwtUtil.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/controller/ArticalController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/brainAi/controller/ArticalController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/controller/AuthenticationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/brainAi/controller/AuthenticationController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/controller/DoctorController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/brainAi/controller/DoctorController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/dto/DoctorDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/brainAi/dto/DoctorDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/service/CustomLogoutSuccessHandler.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/brainAi/service/CustomLogoutSuccessHandler.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/service/DoctorService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/brainAi/service/DoctorService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/service/PatientService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/brainAi/service/PatientService.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTTP Public Environment File" />
+        <option value="JavaScript File" />
+        <option value="HTML File" />
+        <option value="Interface" />
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="KubernetesApiProvider">{
+  &quot;contexts&quot;: [
+    {
+      &quot;name&quot;: &quot;kind-kind&quot;,
+      &quot;originalNamespace&quot;: &quot;cicd&quot;
+    }
+  ],
+  &quot;isMigrated&quot;: true
+}</component>
+  <component name="KubernetesSettings">
+    <option name="contextName" value="kind-kind" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="Use Maven wrapper" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 6
+}</component>
+  <component name="ProjectId" id="2Z4kkuOAHrXrFGDKLg7ABk8KlSf" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;HTTP Request.generated-requests | #1.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #2.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #3.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #4.executor&quot;: &quot;Run&quot;,
+    &quot;HTTP Request.generated-requests | #5.executor&quot;: &quot;Run&quot;,
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;Spring Boot.BrainAiApplication.executor&quot;: &quot;Run&quot;,
+    &quot;Spring Boot.EpiGuarDnaApplication.executor&quot;: &quot;Run&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-21&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.15057471&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="com.example.brainAi.config" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.BrainAiApplication">
+    <configuration name="generated-requests | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" requestIdentifier="#1" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests | #2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="2" requestIdentifier="#2" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests | #3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="3" requestIdentifier="#3" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests | #4" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="4" requestIdentifier="#4" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="generated-requests | #5" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="5" requestIdentifier="#5" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="BrainAiApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="BrainAI" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.brainAi.BrainAiApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringJwtSecurityApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="SpringJWTSecurity" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.springjwtsecurity.SpringJwtSecurityApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.generated-requests | #5" />
+        <item itemvalue="HTTP Request.generated-requests | #4" />
+        <item itemvalue="HTTP Request.generated-requests | #3" />
+        <item itemvalue="HTTP Request.generated-requests | #2" />
+        <item itemvalue="HTTP Request.generated-requests | #1" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-17.0.9-corretto-17.0.9-249ae16d76d6-98297cd8" />
+        <option value="jdk-21.0.1-openjdk-21.0.1-249ae16d76d6-a618e4d4" />
+        <option value="jdk-21.0.1-openjdk-21.0.1-f644763e9732-f98dd351" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5959cf2f-e721-4dcd-ba0d-3a41f8877e99" name="Changes" comment="" />
+      <created>1701688887500</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1701688887500</updated>
+      <workItem from="1701688888632" duration="26349000" />
+      <workItem from="1701795097298" duration="1489000" />
+      <workItem from="1701797841763" duration="11783000" />
+      <workItem from="1701860163883" duration="1662000" />
+      <workItem from="1701861847297" duration="165000" />
+      <workItem from="1701862025178" duration="107000" />
+      <workItem from="1701862147155" duration="2455000" />
+      <workItem from="1701866095437" duration="590000" />
+      <workItem from="1701866698437" duration="4161000" />
+      <workItem from="1701887049493" duration="1730000" />
+      <workItem from="1702287383363" duration="83000" />
+      <workItem from="1703183166907" duration="1610000" />
+      <workItem from="1703186080938" duration="6611000" />
+      <workItem from="1703193875162" duration="2289000" />
+      <workItem from="1703248526135" duration="19000" />
+      <workItem from="1703253211018" duration="2502000" />
+      <workItem from="1703330063807" duration="12225000" />
+      <workItem from="1703501360272" duration="5474000" />
+      <workItem from="1703506862180" duration="8698000" />
+      <workItem from="1703672738770" duration="11167000" />
+      <workItem from="1703746293120" duration="4923000" />
+      <workItem from="1704017352331" duration="702000" />
+      <workItem from="1704096255028" duration="3400000" />
+      <workItem from="1704444219054" duration="813000" />
+      <workItem from="1704710904642" duration="10851000" />
+      <workItem from="1704794459415" duration="11759000" />
+      <workItem from="1704824757164" duration="2972000" />
+      <workItem from="1704867873930" duration="1914000" />
+      <workItem from="1704878392981" duration="2204000" />
+      <workItem from="1704888434135" duration="23965000" />
+      <workItem from="1704968406118" duration="272000" />
+      <workItem from="1704976517579" duration="2014000" />
+      <workItem from="1705229619112" duration="2568000" />
+      <workItem from="1705260807131" duration="10622000" />
+      <workItem from="1705316827953" duration="13380000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="org.hibernate.tool.schema.spi.CommandAcceptanceException" package="org.hibernate.tool.schema.spi" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>

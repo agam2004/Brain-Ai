@@ -10,6 +10,7 @@ import lombok.Setter;
 @NoArgsConstructor
 @AllArgsConstructor
 public class AuthenticationRequest {
+    // Instance variables for the username and password of the user
     private String username;
     private String password;
 }

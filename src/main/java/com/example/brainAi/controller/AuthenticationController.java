@@ -5,21 +5,24 @@ import com.example.brainAi.config.AuthenticationResponse;
 import com.example.brainAi.config.JwtUtil;
 import com.example.brainAi.service.CustomUserDetailsService;
 import com.example.brainAi.service.TokenBlacklistService;
+import org.springframework.context.annotation.Configuration;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.core.Authentication;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.context.SecurityContextHolder;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.password.PasswordEncoder;
-import org.springframework.security.core.Authentication;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RequestBody;
 
 import java.util.Collection;
 
-@RestController
-@CrossOrigin(origins = "http://localhost:3000")
+@Controller
 public class AuthenticationController {
     private final CustomUserDetailsService customUserDetailsService;
     private final JwtUtil jwtUtil;
@@ -33,6 +36,7 @@ public class AuthenticationController {
         this.passwordEncoder = passwordEncoder;
         this.tokenBlacklistService = tokenBlacklistService;
     }
+
 
     @GetMapping("/index")
     public String index() {
@@ -57,9 +61,10 @@ public class AuthenticationController {
         Collection<? extends GrantedAuthority> authorities = auth.getAuthorities();
         if (authorities.contains(new SimpleGrantedAuthority("ROLE_ADMIN"))) {
             return "redirect:/admin_home";
-        } else if (authorities.contains(new SimpleGrantedAuthority("ROLE_DOCTOR"))) {
+        } else if (authorities.contains(new SimpleGrantedAuthority("ROLE_USER"))) {
             return "redirect:/user_home";
         }
+
         return "redirect:/index";
     }
 
@@ -72,6 +77,7 @@ public class AuthenticationController {
     public String useAdmin() {
         return "admin_home";
     }
+
 
     @PostMapping("/login")
     public ResponseEntity<?> authenticateUser(@RequestBody AuthenticationRequest authenticationRequest) {

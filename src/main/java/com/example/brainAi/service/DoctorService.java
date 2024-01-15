@@ -1,6 +1,5 @@
 package com.example.brainAi.service;
 
-import com.example.brainAi.UserRole;
 import com.example.brainAi.dto.DoctorDTO;
 import com.example.brainAi.entity.Doctor;
 import com.example.brainAi.entity.Role;
@@ -11,7 +10,6 @@ import jakarta.transaction.Transactional;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import javax.print.Doc;
 import java.util.List;
 import java.util.Optional;
 
@@ -62,7 +60,7 @@ public class DoctorService {
         user.setFirstName(doctorDTO.getFirstName());
         user.setLastName(doctorDTO.getLastName());
         user.setPassword(doctorDTO.getPassword());
-        user.getRoles().add(new Role(UserRole.ROLE_DOCTOR.toString())); // Assuming you have a UserRole enum
+        user.getRoles().add(new Role("DOCTOR")); // Assuming you have a UserRole enum
         userRepository.save(user);
         Doctor doctor = mapDTODoctorToDoctor(doctorDTO);
         doctor.setUser(user);

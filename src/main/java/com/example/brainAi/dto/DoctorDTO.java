@@ -9,7 +9,6 @@ import jakarta.validation.constraints.Email;
 import lombok.Getter;
 import lombok.Setter;
 
-
 @Data
 @Getter
 @Setter

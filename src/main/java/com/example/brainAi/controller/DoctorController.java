@@ -4,7 +4,6 @@ import com.example.brainAi.dto.DoctorDTO;
 import com.example.brainAi.entity.Doctor;
 import com.example.brainAi.service.DoctorService;
 import lombok.RequiredArgsConstructor;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
@@ -26,10 +25,13 @@ public class DoctorController {
     }
 
     @GetMapping
-    public List<Doctor> getAllDoctors() throws Exception { return doctorService.getAllDoctors(); }
+    public ResponseEntity<List<Doctor>> getAllDoctors() throws Exception {
+        List<Doctor> doctors = doctorService.getAllDoctors();
+        return new ResponseEntity<>(doctors, HttpStatus.OK);
+    }
 
     @GetMapping("/{id}")
-    public DoctorDTO getDoctorById(Long id) {
+    public DoctorDTO getDoctorById(@PathVariable Long id) {
         return doctorService.getDoctorById(id);
     }
 
