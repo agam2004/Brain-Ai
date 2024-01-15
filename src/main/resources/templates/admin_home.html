@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Home Page</title>
+    <link rel="stylesheet" href="css/admin_home.css"> <!-- Link to external CSS file -->
+    <script src="js/admin_logout_with_jwt.js" defer></script>
+
+</head>
+<body>
+<h2>Welcome to ADMIN page</h2>
+<p id="welcomeMessage"></p>
+
+<a id="userHomeLink" href="#">Navigate to user_home</a>
+<a id="logoutLink" href="#">Logout</a>
+<a id="refreshJwtLink" href="#">Refresh JWT</a>
+
+<!--<script src="js/refresh_page_jwt.js"></script> &lt;!&ndash; Link to external JavaScript file &ndash;&gt;-->
+<script src="js/admin_to_userHome_with_jwt.js"></script> <!-- Link to external JavaScript file -->
+<script src="js/admin_refresh_page_with_jwt.js"></script> <!-- Link to external JavaScript file -->
+
+<!--
+    Comments can remain here, explaining the functionality or other details of the page.
+    They will not be visible in the browser but can be viewed in the page source.
+-->
+</body>
+</html>
+<!--
+    This is the home page for the admin. It is displayed after the admin logs in successfully.
+    The user's username is displayed in the welcome message.
+    The admin can navigate to the user_home page by clicking on the link.
+    The admin can log out by clicking on the logout button.
+-->
