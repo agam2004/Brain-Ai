@@ -17,7 +17,15 @@ public class AuthenticationResponse {
     private String accessToken;
     // Instance variable to store the roles assigned to the user
     private List<String> roles;
+    private String refreshToken;
 
+    // Constructor to initialize the accessToken and roles from the given parameters
+    public AuthenticationResponse(String accessToken, String refreshToken, Collection<? extends GrantedAuthority> roles) {
+        this.accessToken = accessToken;
+        this.refreshToken = refreshToken;
+        // Convert the roles a collection to a list of role names (authorities) using Java Streams
+        this.roles = roles.stream().map(GrantedAuthority::getAuthority).collect(Collectors.toList());
+    }
     // Constructor to initialize the accessToken and roles from the given parameters
     public AuthenticationResponse(String accessToken, Collection<? extends GrantedAuthority> roles) {
         this.accessToken = accessToken;

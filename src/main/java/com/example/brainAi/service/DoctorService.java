@@ -53,14 +53,13 @@ public class DoctorService {
         if (userRepository.existsByEmail(doctorDTO.getEmail())) {
             throw new IllegalArgumentException("Email is already in use");
         }
-
         // Create a new User entity for the Doctor
         User user = new User();
         user.setEmail(doctorDTO.getEmail());
         user.setFirstName(doctorDTO.getFirstName());
         user.setLastName(doctorDTO.getLastName());
         user.setPassword(doctorDTO.getPassword());
-        user.getRoles().add(new Role("DOCTOR")); // Assuming you have a UserRole enum
+        user.getRoles().add(new Role("DOCTOR"));
         userRepository.save(user);
         Doctor doctor = mapDTODoctorToDoctor(doctorDTO);
         doctor.setUser(user);

@@ -6,10 +6,9 @@ import com.example.brainAi.service.DoctorService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
+import org.springframework.security.access.annotation.Secured;
 import org.springframework.web.bind.annotation.*;
-
-
-import javax.validation.Valid;
+import jakarta.validation.Valid;
 import java.util.List;
 
 @RestController
@@ -25,6 +24,7 @@ public class DoctorController {
     }
 
     @GetMapping
+    @Secured("DOCTOR")
     public ResponseEntity<List<Doctor>> getAllDoctors() throws Exception {
         List<Doctor> doctors = doctorService.getAllDoctors();
         return new ResponseEntity<>(doctors, HttpStatus.OK);

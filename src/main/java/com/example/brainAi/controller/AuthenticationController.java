@@ -2,10 +2,9 @@ package com.example.brainAi.controller;
 
 import com.example.brainAi.config.AuthenticationRequest;
 import com.example.brainAi.config.AuthenticationResponse;
-import com.example.brainAi.config.JwtUtil;
 import com.example.brainAi.service.CustomUserDetailsService;
 import com.example.brainAi.service.TokenBlacklistService;
-import org.springframework.context.annotation.Configuration;
+import com.example.brainAi.util.JwtUtil;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.Authentication;
@@ -83,7 +82,7 @@ public class AuthenticationController {
     public ResponseEntity<?> authenticateUser(@RequestBody AuthenticationRequest authenticationRequest) {
         UserDetails userDetails = null;
         try {
-            userDetails = customUserDetailsService.loadUserByUsername(authenticationRequest.getUsername());
+            userDetails = customUserDetailsService.loadUserByUsername(authenticationRequest.getEmail());
         } catch (UsernameNotFoundException e) {
             return ResponseEntity.status(HttpStatus.UNAUTHORIZED).body("Invalid credentials");
         }

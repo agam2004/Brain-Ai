@@ -1,7 +1,7 @@
 package com.example.brainAi.service;
 
-import com.example.brainAi.config.JwtProperties;
-import com.example.brainAi.config.JwtUtil;
+import com.example.brainAi.util.JwtProperties;
+import com.example.brainAi.util.JwtUtil;
 import jakarta.servlet.ServletException;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;

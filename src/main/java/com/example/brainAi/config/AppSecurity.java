@@ -2,6 +2,7 @@ package com.example.brainAi.config;
 
 import com.example.brainAi.service.CustomLogoutSuccessHandler;
 import com.example.brainAi.service.CustomUserDetailsService;
+import com.example.brainAi.util.JwtUtil;
 import lombok.RequiredArgsConstructor;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
