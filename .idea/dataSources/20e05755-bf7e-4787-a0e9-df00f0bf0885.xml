@@ -1025,7 +1025,7 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
     <schema id="298" parent="1" name="brain-ai">
-      <LastIntrospectionLocalTimestamp>2024-01-17.14:17:12</LastIntrospectionLocalTimestamp>
+      <LastIntrospectionLocalTimestamp>2024-01-17.18:10:42</LastIntrospectionLocalTimestamp>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
     <user id="299" parent="1" name="mysql.infoschema">

@@ -2,7 +2,7 @@ package com.example.brainAi.util;
 
 import com.auth0.jwt.JWT;
 import com.auth0.jwt.interfaces.DecodedJWT;
-import com.example.brainAi.config.AuthenticationRequest;
+import com.example.brainAi.dto.AuthenticationRequest;
 import com.example.brainAi.entity.RSAKeysEntity;
 import com.example.brainAi.entity.Role;
 import com.example.brainAi.entity.User;
@@ -13,7 +13,6 @@ import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.ExpiredJwtException;
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
-import com.example.brainAi.util.RSAKeyGenerator;
 import lombok.RequiredArgsConstructor;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Component;
@@ -31,11 +30,10 @@ import java.util.stream.Collectors;
 @Component
 @RequiredArgsConstructor
 public class JwtUtil {
-
     private final RSAKeysRepository RSAKeysRepository; // Store private keys
 
     // TODO RSA
-    private final KeyPair keyPair; // Injected
+    //private final KeyPair keyPair; // Injected
 
     private PrivateKey privateKey;
     private PublicKey publicKey;
@@ -74,12 +72,6 @@ public class JwtUtil {
         else {
             throw new RuntimeException("No RSA keys found in the database");
         }
-
-        // display the private key
-        System.out.println("privateKey: " + privateKey);
-        // display the public key
-        System.out.println("publicKey: " + keyPair.getPublic());
-
         User user = new User();
         user.setEmail(authenticationRequest.getEmail());
         user.setPassword(authenticationRequest.getPassword());
@@ -130,7 +122,7 @@ public class JwtUtil {
                 .setClaims(claims)
                 .setIssuedAt(new Date(System.currentTimeMillis()))
                 .setExpiration(new Date(System.currentTimeMillis() + TOKEN_EXPIRATION_TIME))
-                .signWith(SignatureAlgorithm.RS256, privateKey) // Use RS256 with an RSA private key
+                .signWith(privateKey, SignatureAlgorithm.RS256) // Use RS256 with an RSA private key
                 .compact();
     }
 
@@ -326,5 +318,4 @@ public class JwtUtil {
     public Date extractExpiration(String token) {
         return extractClaim(token, Claims::getExpiration);
     }
-
 }

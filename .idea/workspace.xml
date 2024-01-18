@@ -6,48 +6,62 @@
   <component name="ChangeListManager">
     <list default="true" id="5959cf2f-e721-4dcd-ba0d-3a41f8877e99" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/20e05755-bf7e-4787-a0e9-df00f0bf0885.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/20e05755-bf7e-4787-a0e9-df00f0bf0885.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e1d43059-11bb-430e-807a-a8c54b7a009b.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e1d43059-11bb-430e-807a-a8c54b7a009b/storage_v2/_src_/schema/epiguardnadb.OJYvVA.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e1d43059-11bb-430e-807a-a8c54b7a009b/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e1d43059-11bb-430e-807a-a8c54b7a009b/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e1d43059-11bb-430e-807a-a8c54b7a009b/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e1d43059-11bb-430e-807a-a8c54b7a009b/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/brainAi/BrainAiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/brainAi/BrainAiApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/brainAi/config/AppSecurity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/brainAi/config/AppSecurity.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/brainAi/config/AuthenticationRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/brainAi/config/AuthenticationRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/brainAi/config/AuthenticationResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/brainAi/config/AuthenticationResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/brainAi/config/JwtAuthenticationFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/brainAi/config/JwtAuthenticationFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/brainAi/config/JwtProperties.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/brainAi/config/JwtUtil.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/brainAi/config/AuthenticationRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/brainAi/dto/AuthenticationRequest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/brainAi/config/AuthenticationResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/brainAi/dto/AuthenticationResponse.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/brainAi/controller/AuthenticationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/brainAi/controller/AuthenticationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/brainAi/controller/DoctorController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/brainAi/controller/DoctorController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/brainAi/dto/ArticalDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/brainAi/dto/ArticalDTO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/brainAi/dto/RegisterDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/brainAi/dto/RegisterDTO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/brainAi/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/brainAi/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/brainAi/repository/RoleRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/brainAi/repository/RoleRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/brainAi/service/CustomLogoutSuccessHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/brainAi/service/CustomLogoutSuccessHandler.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/brainAi/service/DoctorService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/brainAi/service/DoctorService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/brainAi/service/PatientService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/brainAi/service/PatientService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/brainAi/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/brainAi/repository/UserRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/brainAi/service/CustomUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/brainAi/service/CustomUserDetailsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/brainAi/service/RefreshTokenService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/brainAi/service/RefreshTokenService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/brainAi/util/JwtUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/brainAi/util/JwtUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/brainAi/util/RSAKeyGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/brainAi/util/RSAKeyGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/BrainAiApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/brainAi/BrainAiApplication.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/config/AuthenticationRequest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/brainAi/config/AuthenticationRequest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/config/AuthenticationResponse.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/brainAi/config/AuthenticationResponse.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/config/JwtUtil.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/brainAi/config/JwtUtil.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/controller/AuthenticationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/brainAi/controller/AuthenticationController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/controller/DoctorController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/brainAi/controller/DoctorController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/dto/ArticalDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/brainAi/dto/ArticalDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/dto/RegisterDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/brainAi/dto/RegisterDTO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/entity/RefreshToken$RefreshTokenBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/brainAi/entity/RefreshToken$RefreshTokenBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/entity/RefreshToken.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/brainAi/entity/RefreshToken.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/brainAi/entity/User.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/repository/RoleRepository.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/brainAi/repository/RoleRepository.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/service/DoctorService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/brainAi/service/DoctorService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/service/PatientService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/brainAi/service/PatientService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/service/RefreshTokenService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/brainAi/service/RefreshTokenService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/BrainAiApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/config/AppSecurity$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/config/AppSecurity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/config/AuthenticationRequest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/config/AuthenticationResponse.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/config/CorsConfig$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/config/CorsConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/config/JwtAuthenticationEntryPoint.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/config/JwtAuthenticationFilter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/config/RSAConfiguration.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/controller/AuthenticationController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/controller/DoctorController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/dto/ArticalDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/dto/DoctorDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/dto/LoginDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/dto/PatientDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/dto/RegisterDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/dto/UserDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/entity/ArticalPost.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/entity/Doctor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/entity/Patient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/entity/RSAKeysEntity.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/entity/RefreshToken$RefreshTokenBuilder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/entity/RefreshToken.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/entity/Role.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/entity/User.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/repository/ArticalsRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/repository/DoctorRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/repository/PatientRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/repository/RSAKeysRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/repository/RefreshTokenRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/repository/RoleRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/repository/UserRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/service/ArticalsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/service/CustomLogoutSuccessHandler.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/service/CustomUserDetailsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/service/DoctorService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/service/PatientService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/service/RefreshTokenService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/service/TokenBlacklistService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/util/CorsConfig$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/util/CorsConfig.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/util/JwtProperties.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/util/JwtUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/util/RSAKeyGenerator.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +106,7 @@
     </option>
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
@@ -245,7 +259,7 @@
       <workItem from="1705316827953" duration="15183000" />
       <workItem from="1705342702664" duration="805000" />
       <workItem from="1705423135634" duration="26000" />
-      <workItem from="1705423185475" duration="26918000" />
+      <workItem from="1705423185475" duration="43694000" />
     </task>
     <servers />
   </component>
@@ -256,22 +270,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/brainAi/service/CustomUserDetailsService.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/brainAi/service/CustomUserDetailsService.java</url>
-          <line>44</line>
-          <properties>
-            <option name="lambda-ordinal" value="-1" />
-          </properties>
-          <option name="timeStamp" value="5" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/brainAi/controller/AuthenticationController.java</url>
-          <line>90</line>
-          <option name="timeStamp" value="6" />
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/brainAi/config/JwtAuthenticationFilter.java</url>
+          <line>45</line>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

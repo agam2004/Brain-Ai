@@ -20,7 +20,7 @@ public class RSAKeyGenerator {
     and injects them into JwtUtil.
      */
 
-    public KeyPair keyPair() throws NoSuchAlgorithmException {
+    public KeyPair generateKeyPair() throws NoSuchAlgorithmException {
         KeyPairGenerator generator = KeyPairGenerator.getInstance("RSA");
         generator.initialize(2048);
         return generator.generateKeyPair();

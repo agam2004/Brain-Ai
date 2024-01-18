@@ -1,4 +1,4 @@
-package com.example.brainAi.config;
+package com.example.brainAi.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;

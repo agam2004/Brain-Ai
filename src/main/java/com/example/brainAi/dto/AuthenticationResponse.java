@@ -1,4 +1,4 @@
-package com.example.brainAi.config;
+package com.example.brainAi.dto;
 
 import lombok.Getter;
 import lombok.NoArgsConstructor;
@@ -30,7 +30,7 @@ public class AuthenticationResponse {
     public AuthenticationResponse(String accessToken, Collection<? extends GrantedAuthority> roles) {
         this.accessToken = accessToken;
         // Convert the roles a collection to a list of role names (authorities) using Java Streams
-        this.roles = roles.stream().map(GrantedAuthority::getAuthority).collect(Collectors.toList());
+        this.roles = roles.stream().map(GrantedAuthority::getAuthority).toList();
     }
 
     // Getter method to retrieve the JWT token, which is the same as the access token

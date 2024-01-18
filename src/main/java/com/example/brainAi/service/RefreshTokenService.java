@@ -1,6 +1,6 @@
 package com.example.brainAi.service;
 
-import com.example.brainAi.config.AuthenticationResponse;
+import com.example.brainAi.dto.AuthenticationResponse;
 import com.example.brainAi.util.JwtProperties;
 import com.example.brainAi.entity.RefreshToken;
 import com.example.brainAi.entity.User;
