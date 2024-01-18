@@ -5,63 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5959cf2f-e721-4dcd-ba0d-3a41f8877e99" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/20e05755-bf7e-4787-a0e9-df00f0bf0885.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/20e05755-bf7e-4787-a0e9-df00f0bf0885.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/brainAi/config/AuthenticationRequest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/brainAi/dto/AuthenticationRequest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/brainAi/config/AuthenticationResponse.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/brainAi/dto/AuthenticationResponse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/brainAi/controller/AuthenticationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/brainAi/controller/AuthenticationController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/brainAi/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/brainAi/entity/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/brainAi/repository/UserRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/brainAi/repository/UserRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/brainAi/service/CustomUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/brainAi/service/CustomUserDetailsService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/brainAi/service/RefreshTokenService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/brainAi/service/RefreshTokenService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/brainAi/util/JwtUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/brainAi/util/JwtUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/brainAi/util/RSAKeyGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/brainAi/util/RSAKeyGenerator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/BrainAiApplication.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/config/AppSecurity$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/config/AppSecurity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/config/AuthenticationRequest.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/config/AuthenticationResponse.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/config/CorsConfig$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/config/CorsConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/config/JwtAuthenticationEntryPoint.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/config/JwtAuthenticationFilter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/config/RSAConfiguration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/controller/AuthenticationController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/controller/DoctorController.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/dto/ArticalDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/dto/DoctorDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/dto/LoginDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/dto/PatientDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/dto/RegisterDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/dto/UserDTO.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/entity/ArticalPost.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/entity/Doctor.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/entity/Patient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/entity/RSAKeysEntity.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/entity/RefreshToken$RefreshTokenBuilder.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/entity/RefreshToken.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/entity/Role.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/entity/User.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/repository/ArticalsRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/repository/DoctorRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/repository/PatientRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/repository/RSAKeysRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/repository/RefreshTokenRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/repository/RoleRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/repository/UserRepository.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/service/ArticalsService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/service/CustomLogoutSuccessHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/service/CustomUserDetailsService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/service/DoctorService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/service/PatientService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/service/RefreshTokenService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/service/TokenBlacklistService.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/util/CorsConfig$1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/util/CorsConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/util/JwtProperties.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/util/JwtUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/util/RSAKeyGenerator.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -136,7 +83,7 @@
     "Spring Boot.BrainAiApplication.executor": "Run",
     "Spring Boot.EpiGuarDnaApplication.executor": "Run",
     "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "jwt",
     "jdk.selected.JAVA_MODULE": "openjdk-21",
     "kotlin-language-version-configured": "true",
     "last_opened_file_path": "C:/Users/etai2/Documents/EpiGuarDNA/src/main/java/com/example/brainAi/util",
@@ -259,7 +206,10 @@
       <workItem from="1705316827953" duration="15183000" />
       <workItem from="1705342702664" duration="805000" />
       <workItem from="1705423135634" duration="26000" />
-      <workItem from="1705423185475" duration="43694000" />
+      <workItem from="1705423185475" duration="45854000" />
+      <workItem from="1705591758308" duration="2030000" />
+      <workItem from="1705598268074" duration="1035000" />
+      <workItem from="1705599441085" duration="3463000" />
     </task>
     <servers />
   </component>
@@ -273,6 +223,46 @@
           <url>file://$PROJECT_DIR$/src/main/java/com/example/brainAi/config/JwtAuthenticationFilter.java</url>
           <line>45</line>
           <option name="timeStamp" value="13" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/brainAi/controller/AuthenticationController.java</url>
+          <line>79</line>
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/brainAi/service/AuthenticationService.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="17" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/brainAi/service/CustomUserDetailsService.java</url>
+          <line>27</line>
+          <option name="timeStamp" value="18" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/brainAi/service/RefreshTokenService.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/brainAi/service/RefreshTokenService.java</url>
+          <line>41</line>
+          <option name="timeStamp" value="20" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/brainAi/service/RefreshTokenService.java</url>
+          <line>54</line>
+          <option name="timeStamp" value="21" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/brainAi/service/AuthenticationService.java</url>
+          <line>46</line>
+          <option name="timeStamp" value="22" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/brainAi/service/AuthenticationService.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
