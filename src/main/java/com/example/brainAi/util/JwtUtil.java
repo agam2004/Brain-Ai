@@ -122,7 +122,7 @@ public class JwtUtil {
                 .setClaims(claims)
                 .setIssuedAt(new Date(System.currentTimeMillis()))
                 .setExpiration(new Date(System.currentTimeMillis() + TOKEN_EXPIRATION_TIME))
-                .signWith(privateKey, SignatureAlgorithm.RS256) // Use RS256 with an RSA private key
+                .signWith(SignatureAlgorithm.RS256, privateKey) // Use RS256 with an RSA private key
                 .compact();
     }
 

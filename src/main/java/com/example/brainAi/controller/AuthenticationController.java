@@ -93,6 +93,18 @@ public class AuthenticationController {
         }
     }
 
+    /*
+    @PostMapping('/register')
+    public ResponseEntity<?> registerUser(@RequestBody String firstName, String lastName, String email, String password) {
+        try {
+
+            return ResponseEntity.status(HttpStatus.OK).body("Registration successful");
+        } catch (AuthenticationServiceException e) {
+            return ResponseEntity.status(HttpStatus.BAD_REQUEST).body(e.getMessage());
+        }
+    }
+     */
+
     // The refreshToken() method takes in a RefreshTokenRequest object, which contains the refresh token.
     // The method returns an AuthenticationResponse object, which contains the JWT and refresh token, and the user's roles.
     @PostMapping("/refresh_token")
