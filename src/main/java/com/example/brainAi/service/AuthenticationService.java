@@ -10,10 +10,12 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
+import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
 import java.sql.Connection;
+import java.sql.DriverManager;
 import java.sql.PreparedStatement;
 import java.sql.SQLException;
 import java.util.Collection;
@@ -27,13 +29,13 @@ public class AuthenticationService {
     private final TokenBlacklistService tokenBlacklistService;
     private final RefreshTokenService refreshTokenService;
 
-    /*
-    private Connection getConnection() {
-        // Implement your logic to get a database connection
-        // For example, using a connection pool
-        return YourConnectionProvider.getConnection();
+    private static final String JDBC_URL = "jdbc:mysql://localhost:3306/brain-ai";
+    private static final String JDBC_USER = "root";
+    private static final String JDBC_PASSWORD = "notroot";
+
+    public static Connection getConnection() throws SQLException {
+        return DriverManager.getConnection(JDBC_URL, JDBC_USER, JDBC_PASSWORD);
     }
-     */
 
 
     // The authenticate() method takes in an AuthenticationRequest object, which contains the username and password.
@@ -64,33 +66,52 @@ public class AuthenticationService {
         return new AuthenticationResponse(jwtToken, refreshToken.getToken(), roles);
     }
 
-    /*
-    public ResponseEntity<?> registerUser(String firstName, String lastName, String email, String password) {
-        String query = "INSERT INTO users (first_name, last_name, email, password) VALUES (?, ?, ?, ?)";
 
-        try (Connection connection = getConnection();
-             PreparedStatement preparedStatement = connection.prepareStatement(query)) {
+    public AuthenticationResponse registerUser(String firstName, String lastName, AuthenticationRequest authenticationRequest) {
+        try {
+            // Attempt to load user by email
+            customUserDetailsService.loadUserByUsername(authenticationRequest.getEmail());
 
-            // Set parameters to the prepared statement
-            preparedStatement.setString(1, firstName);
-            preparedStatement.setString(2, lastName);
-            preparedStatement.setString(3, email);
-            preparedStatement.setString(4, password);
+            // If no exception is thrown, the user already exists
+            ResponseEntity.status(HttpStatus.BAD_REQUEST).body("Email is already exists");
 
-            // Execute the update
-            int rowsAffected = preparedStatement.executeUpdate();
+        } catch (UsernameNotFoundException e) {
+            UserDetails userDetails = customUserDetailsService.loadUserByUsername(authenticationRequest.getEmail());
 
-            if (rowsAffected > 0) {
-                return ResponseEntity.status(HttpStatus.OK).body("User registered successfully");
-            } else {
-                return ResponseEntity.status(HttpStatus.BAD_REQUEST).body("Failed to register user");
+            // The user does not exist, proceed with registration
+            String query = "INSERT INTO users (first_name, last_name, authenticationRequest.getEmail(), authenticationRequest.getPassword()) VALUES (?, ?, ?, ?)";
+
+            try (Connection connection = getConnection();
+                 PreparedStatement preparedStatement = connection.prepareStatement(query)) {
+
+                // Set parameters to the prepared statement
+                preparedStatement.setString(1, firstName);
+                preparedStatement.setString(2, lastName);
+                preparedStatement.setString(3, authenticationRequest.getEmail());
+                preparedStatement.setString(4, authenticationRequest.getPassword());
+
+                // Execute the update
+                int rowsAffected = preparedStatement.executeUpdate();
+
+                if (rowsAffected > 0) {
+                    String jwtToken = jwtUtil.generateToken(authenticationRequest, userDetails);
+
+                    RefreshToken refreshToken = refreshTokenService.createRefreshToken(userDetails.getUsername());
+
+                    ResponseEntity.status(HttpStatus.OK).body("User registered successfully");
+
+                    Collection<? extends GrantedAuthority> roles = userDetails.getAuthorities();
+
+                    return new AuthenticationResponse(jwtToken, refreshToken.getToken(), roles);
+                } else {
+                    ResponseEntity.status(HttpStatus.BAD_REQUEST).body("Failed to register user");
+                }
+
+            } catch (SQLException ex) {
+                // Handle SQL exceptions
+                ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body("Internal server error");
             }
-
-        } catch (SQLException e) {
-            // Handle SQL exceptions
-            e.printStackTrace();
-            return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR).body("Internal server error");
         }
+        return null;
     }
-     */
 }

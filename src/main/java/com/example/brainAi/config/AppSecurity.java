@@ -42,7 +42,7 @@ public class AppSecurity {
         http
 
                 .csrf(csrf -> csrf.disable())
-                .cors(cors -> cors.disable())
+                .cors(cors -> cors.configure(http))
                 // The SessionCreationPolicy.STATELESS setting means that the application will not create or use HTTP sessions.
                 // This is a common configuration in RESTful APIs, especially when using token-based authentication like JWT (JSON Web Token).
                 .sessionManagement(sess -> sess.sessionCreationPolicy(SessionCreationPolicy.STATELESS))
@@ -55,10 +55,10 @@ public class AppSecurity {
                 .authorizeHttpRequests(auth -> auth
                         .requestMatchers("/index/**", "/login/**", "/logout/**").permitAll()
                         .requestMatchers("/admin_home/**").hasRole("ADMIN")
-                        .requestMatchers("/doctors/**").hasRole("DOCTOR")
-                        .requestMatchers("/model/**").hasAnyRole("DOCTOR", "ADMIN")  // Corrected role names
-                        .requestMatchers("/patients/**").hasRole("PATIENT")
+                        .requestMatchers("/model/**").hasAnyRole("ADMIN", "USER")  // Corrected role names
                         .requestMatchers("/articales/**").permitAll()
+                        .requestMatchers("/register/**").permitAll()
+                        .requestMatchers("/generate_images/**").permitAll()
                         .requestMatchers("/user_home/**").hasAnyRole("USER", "ADMIN")
                         .requestMatchers("/home/**").permitAll()
                         .anyRequest().authenticated())

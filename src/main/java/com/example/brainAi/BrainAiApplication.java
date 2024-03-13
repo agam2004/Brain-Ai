@@ -26,22 +26,5 @@ public class BrainAiApplication implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
-         /*
-        at first use of the app, if no user table exists, then create admin user with:
-        'admin@gmail.com' username and 'admin' password
-                */
-
-        Role role = roleRepository.findByName("ROLE_USER");
-        if (role == null) {
-            User user = new User("admin", "user", "admin@gmail.com",
-                    passwordEncoder.encode("admin"),
-                    List.of(new Role("ROLE_ADMIN")));
-            userRepository.save(user);
-            user = new User("user", "user", "user@gmail.com",
-                    passwordEncoder.encode("user"),
-                    List.of(new Role("ROLE_USER")));
-            userRepository.save(user);
-        }
     }
-
 }

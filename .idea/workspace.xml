@@ -5,12 +5,70 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5959cf2f-e721-4dcd-ba0d-3a41f8877e99" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/20e05755-bf7e-4787-a0e9-df00f0bf0885.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/20e05755-bf7e-4787-a0e9-df00f0bf0885.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/20e05755-bf7e-4787-a0e9-df00f0bf0885.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/20e05755-bf7e-4787-a0e9-df00f0bf0885/storage_v2/_src_/schema/brain-ai.X_45_g.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/20e05755-bf7e-4787-a0e9-df00f0bf0885/storage_v2/_src_/schema/information_schema.FNRwLQ.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/20e05755-bf7e-4787-a0e9-df00f0bf0885/storage_v2/_src_/schema/mysql.osA4Bg.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/20e05755-bf7e-4787-a0e9-df00f0bf0885/storage_v2/_src_/schema/performance_schema.kIw0nw.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/20e05755-bf7e-4787-a0e9-df00f0bf0885/storage_v2/_src_/schema/sys.zb4BAA.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Boread-Ape-Yacht/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/Boread-Ape-Yacht/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/brainAi/BrainAiApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/brainAi/BrainAiApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/brainAi/config/AppSecurity.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/brainAi/config/AppSecurity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/brainAi/config/corsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/brainAi/config/corsConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/brainAi/controller/ArticalController.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/brainAi/controller/AuthenticationController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/brainAi/controller/AuthenticationController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/brainAi/controller/DoctorController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/brainAi/controller/PatientController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/brainAi/dto/ArticalDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/brainAi/dto/DoctorDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/brainAi/dto/PatientDTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/brainAi/dto/UserDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/brainAi/dto/UserDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/brainAi/entity/ArticalPost.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/brainAi/entity/Doctor.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/brainAi/entity/Patient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/brainAi/entity/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/brainAi/entity/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/brainAi/entity/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/brainAi/entity/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/brainAi/repository/ArticalsRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/brainAi/repository/DoctorRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/brainAi/repository/PatientRepository.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/brainAi/service/ArticalsService.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/example/brainAi/service/AuthenticationService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/brainAi/service/AuthenticationService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/controller/CustomLogoutSuccessHandlerController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/brainAi/service/CustomUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/brainAi/service/CustomUserDetailsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/brainAi/service/DoctorService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/brainAi/service/PatientService.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/BrainAiApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/brainAi/BrainAiApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/config/AppSecurity.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/brainAi/config/AppSecurity.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/config/corsConfig$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/brainAi/config/corsConfig$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/config/corsConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/brainAi/config/corsConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/controller/ArticalController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/controller/AuthenticationController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/brainAi/controller/AuthenticationController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/controller/DoctorController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/controller/PatientController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/controller/RegisterController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/dto/ArticalDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/dto/DoctorDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/dto/PatientDTO.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/dto/UserDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/brainAi/dto/UserDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/entity/ArticalPost.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/entity/Doctor.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/entity/Patient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/entity/Role.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/brainAi/entity/Role.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/entity/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/brainAi/entity/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/repository/ArticalsRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/repository/DoctorRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/repository/PatientRepository.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/service/ArticalsService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/service/AuthenticationService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/brainAi/service/AuthenticationService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/service/CustomUserDetailsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/brainAi/service/CustomUserDetailsService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/service/DoctorService.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/brainAi/service/PatientService.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +143,7 @@
     &quot;Spring Boot.BrainAiApplication.executor&quot;: &quot;Run&quot;,
     &quot;Spring Boot.EpiGuarDnaApplication.executor&quot;: &quot;Run&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;loginPage&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;Gan-Model&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;openjdk-21&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/etai2/Documents/EpiGuarDNA/src/main/java/com/example/brainAi/util&quot;,
@@ -94,9 +152,9 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.15057471&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.22988506&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
@@ -157,8 +215,6 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="jdk-17.0.9-corretto-17.0.9-249ae16d76d6-98297cd8" />
-        <option value="jdk-21.0.1-openjdk-21.0.1-249ae16d76d6-a618e4d4" />
         <option value="jdk-21.0.1-openjdk-21.0.1-f644763e9732-f98dd351" />
       </set>
     </attachedChunks>
@@ -209,7 +265,41 @@
       <workItem from="1705342702664" duration="805000" />
       <workItem from="1705423135634" duration="26000" />
       <workItem from="1705423185475" duration="43694000" />
-      <workItem from="1705745755769" duration="284000" />
+      <workItem from="1705745755769" duration="6019000" />
+      <workItem from="1705818511084" duration="495000" />
+      <workItem from="1705824196398" duration="989000" />
+      <workItem from="1705839686010" duration="2002000" />
+      <workItem from="1705926601109" duration="1840000" />
+      <workItem from="1706089053901" duration="125000" />
+      <workItem from="1706089680645" duration="108000" />
+      <workItem from="1706090520821" duration="3896000" />
+      <workItem from="1706171773010" duration="133000" />
+      <workItem from="1706529911779" duration="1014000" />
+      <workItem from="1706692506374" duration="1229000" />
+      <workItem from="1706724359483" duration="2032000" />
+      <workItem from="1706790689360" duration="613000" />
+      <workItem from="1706793040742" duration="474000" />
+      <workItem from="1706793528765" duration="720000" />
+      <workItem from="1706893207775" duration="67000" />
+      <workItem from="1707658950732" duration="1082000" />
+      <workItem from="1707747551404" duration="180000" />
+      <workItem from="1707905147551" duration="6709000" />
+      <workItem from="1707913926451" duration="1466000" />
+      <workItem from="1708256083131" duration="1162000" />
+      <workItem from="1708339091197" duration="6496000" />
+      <workItem from="1708352974304" duration="416000" />
+      <workItem from="1708508257135" duration="64000" />
+      <workItem from="1708508531591" duration="266000" />
+      <workItem from="1708510265965" duration="1010000" />
+      <workItem from="1708515385246" duration="534000" />
+      <workItem from="1709201994097" duration="5250000" />
+      <workItem from="1709715367403" duration="612000" />
+      <workItem from="1709721606322" duration="784000" />
+      <workItem from="1709749827349" duration="5376000" />
+      <workItem from="1710148715952" duration="1149000" />
+      <workItem from="1710150963890" duration="12901000" />
+      <workItem from="1710178423467" duration="1153000" />
+      <workItem from="1710182374920" duration="1260000" />
     </task>
     <servers />
   </component>
@@ -225,16 +315,25 @@
           <option name="timeStamp" value="13" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/brainAi/service/CustomUserDetailsService.java</url>
-          <line>27</line>
-          <option name="timeStamp" value="47" />
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/brainAi/service/AuthenticationService.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/example/brainAi/service/CustomUserDetailsService.java</url>
-          <line>30</line>
-          <option name="timeStamp" value="49" />
+          <url>file://$PROJECT_DIR$/src/main/java/com/example/brainAi/service/AuthenticationService.java</url>
+          <line>47</line>
+          <option name="timeStamp" value="17" />
         </line-breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="org.springframework.dao.IncorrectResultSizeDataAccessException" package="org.springframework.dao" />
+          <option name="timeStamp" value="14" />
+        </breakpoint>
       </breakpoints>
     </breakpoint-manager>
+    <pin-to-top-manager>
+      <pinned-members>
+        <PinnedItemInfo parentTag="java.util.AbstractMap$SimpleImmutableEntry" memberName="value" />
+      </pinned-members>
+    </pin-to-top-manager>
   </component>
 </project>
